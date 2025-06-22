@@ -15,7 +15,7 @@ os.environ["TF_FORCE_GPU_ALLOW_GROWTH"] = "true"
 tf.config.optimizer.set_experimental_options({"auto_mixed_precision": True})
 
 st.set_page_config(layout="centered")
-st.title(" ESRGAN Ultra-HD ")
+st.title(" ESRGAN Ultra-HD by Team CodeKarma under Bharatiya Antariksh Hackathon 2025 ,ISRO ")
 st.markdown("Upload **two low-res images** → ESRGAN → Final 4K/8K sharp image")
 
 # ----------------------------
